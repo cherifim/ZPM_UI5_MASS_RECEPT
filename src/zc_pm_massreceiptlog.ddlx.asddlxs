@@ -1,0 +1,56 @@
+@Metadata.layer: #LOCALIZATION
+annotate view ZC_PM_MassReceiptLog
+    with 
+{
+ @UI: { lineItem: [{ position: 10 }] } 
+ @Consumption.filter.hidden: false  
+ LogId;
+ 
+ @UI: { lineItem: [{ position: 20 }] } 
+ @Consumption.filter.hidden: false
+ PurchaseOrder;
+ 
+ @UI: { lineItem: [{ position: 30 }] } 
+ @Consumption.filter.hidden: false
+ PurchaseOrderItem;
+ 
+ @UI: { lineItem: [{ position: 40 }] } 
+ @Consumption.filter.hidden: false
+ DisplayCurrency;
+ 
+ @UI: { lineItem: [{ position: 50 }] } 
+ @Consumption.filter.hidden: false
+ Quantity;
+ 
+ @UI: { lineItem: [{ position: 70 }] } 
+ @Consumption.filter.hidden: false
+ ValuationType;
+ 
+ @UI: { lineItem: [{ position: 80 }] } 
+ @Consumption.filter.hidden: false
+ BatchNumber;
+ 
+ @UI: { lineItem: [{ position: 90 }] } 
+ @Consumption.filter.hidden: false
+ PostingDate;
+ 
+ @UI: { lineItem: [{ position: 100 }] } 
+ @Consumption.filter.hidden: false
+ DocumentDate;
+ 
+ @UI: { lineItem: [{ position: 110 }] } 
+ @Consumption.filter.hidden: false
+ MaterialDocument;
+ 
+ @UI: { lineItem: [{ position: 120 }] } 
+ @Consumption.filter.hidden: false
+ MaterialDocumentYear;
+ 
+ @UI: { lineItem: [{ position: 130 }] } 
+ @Consumption.filter.hidden: false
+ CreationDate;
+ 
+ @UI: { lineItem: [{ position: 140 }] } 
+ @Consumption.filter.hidden: false
+ CreationUser;    
+}

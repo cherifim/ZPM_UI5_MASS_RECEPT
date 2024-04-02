@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for UI5 app Mass Good Receipt</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>An error has occurred: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Good receipt on PO/Item (&amp;1/&amp;2) successful : Doc number = &amp;3/&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error executing good receipt on PO/Item (&amp;1/&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>The item &amp;1 doesn&apos;t exist for PO &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No data found for PO/Item (&amp;1/&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Batch number mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Batch number &amp;1 not found for Material &amp;2 (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Valuation type mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Valuation type &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Serial numbers mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>The quantity must be greater than zero</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>The quantity entered (&amp;1) exceeds the quantity to be received (&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Posting date is mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Document date is mandatory</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>ZPM_MASS_RECEIPT</ARBGB>
+     <STEXT>Classe de messages pour l&apos;application UI5 Réception en masse</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Une erreur est survenue : &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Réception effectuée avec succès sur CA/Poste (&amp;1/&amp;2): Doc article = &amp;3/&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erreur lors de l&apos;exécution de la réception sur CA/Poste (&amp;1/&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Le poste &amp;1 n&apos;existe pas pour la CA &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Pas de données trouvées pour CA/Poste (&amp;1/&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>N° de lot est obligatoire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>N° de lot &amp;1 non trouvé pour l&apos;article &amp;2 (&amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Groupe de valorisation est obligatoire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Groupe de valorisation &amp;1 n&apos;existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Numéro de série est obligatoire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>La quantité doit être supérieure à zéro</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>La quantité renseignée (&amp;1) dépasse la quantité restant à recevoir (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Date comptable est obligatoire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Date du document est obligatoire</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

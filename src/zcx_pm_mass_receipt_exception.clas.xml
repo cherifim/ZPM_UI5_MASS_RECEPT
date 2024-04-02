@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCX_PM_MASS_RECEIPT_EXCEPTION</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Root exception for UI5 app Mass Receipt</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BAPIRET_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MSG_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ODATAV2_REQUEST_CONTEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>OData V2 Request Information</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BAPIRET2_MESSAGES</CMPNAME>
+     <SCONAME>MESSAGES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table retour</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BAPIRET_MSG</CMPNAME>
+     <SCONAME>MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Paramètre de retour</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MSG_VARIABLE</CMPNAME>
+     <SCONAME>ATTRIBUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Nom d&apos;attribut</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ROOT_EXCEPTION</CMPNAME>
+     <SCONAME>ROOT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Abstract Superclass for All Global Exceptions</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
